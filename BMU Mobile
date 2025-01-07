@@ -11,7 +11,7 @@ def baca_data():
 
 # Fungsi untuk menyimpan data
 def simpan_data(data):
-    with open("Data_pengguna.json", "w") as file:
+    with open("Data_pengguna.json", "w") as file: # Digunakan buat menulis data
         json.dump(data, file, indent=4) # json.dump digunakan untuk menulis data e file JSON
 
 # Database pengguna
